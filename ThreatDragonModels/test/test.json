@@ -8,7 +8,159 @@
       {
         "title": "test tm",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 179,
+                "y": 284
+              },
+              "angle": 0,
+              "id": "3b4d58be-1255-4fcb-a653-38bbfde7c971",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 288,
+                "y": 137
+              },
+              "angle": 0,
+              "id": "93acbd5a-7f2a-4e01-9fce-e6eacbe2acca",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 518,
+                "y": 72
+              },
+              "angle": 0,
+              "id": "b50b78f1-2e4a-4eb5-a3d8-5ef116766f79",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 119,
+                "y": 154
+              },
+              "angle": 0,
+              "id": "c2e3e87a-e091-4f35-a8fc-90400c540872",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c2e3e87a-e091-4f35-a8fc-90400c540872"
+              },
+              "target": {
+                "x": 286,
+                "y": 167
+              },
+              "vertices": [
+                {
+                  "x": 164,
+                  "y": 135
+                },
+                {
+                  "x": 137,
+                  "y": 129
+                },
+                {
+                  "x": 228,
+                  "y": 125
+                }
+              ],
+              "id": "aa9974e5-ea1c-4004-ac99-e046220c7c0a",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ]
   }
